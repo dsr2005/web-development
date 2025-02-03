@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Persons Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="head">
+        <h1>MISSING PEOPLE</h1>
+    </div>
+
+    <header>
+        <h2>Report a Missing Person</h2>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number" required>
+
+                <label for="location">Last Seen Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Reported Missing Persons</h2>
+            <div class="card">
+                <img src="flower.jpeg" alt="Missing Person">
+                <h3>John Doe</h3>
+                <p>Last seen at Central Park</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
+
+
+
+<!--to get suggestion
+
+ctrl+spacebar
+SEMANTIC TAGS
+<main></main>
+<header></header>
+<nav></nav>
+<section></section>
+<footer></footer>
+
+-->
+<!--<div class='btn'  then in css we give btn-->
+
+
+
+
+<button id="'changecolor">press here</button>
+<script>
+    const button=document.getElementById("changecolor");
+
+</script>
+
+<script>
+    alert("Hello world card")
+</script>

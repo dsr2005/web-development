@@ -1,0 +1,71 @@
+.head {
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+}
+
+.head h1 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.static{
+    background:red ;
+    padding: 10px;
+
+}
+.relative{
+    position: relative;
+    left: 20px;
+    background: rgb;
+    padding: 10px;
+}
+.absolute{
+    top:0px ;        /*top and left is in=mportant i absolue*/
+    left:0px;
+    background: lightgreen;
+    padding: 10px;
+}
+
+
+
+
+
+
